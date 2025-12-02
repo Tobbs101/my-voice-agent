@@ -16,7 +16,7 @@ export function VoiceAgent() {
   } = useRealtimeVoice({ apiKey, instructions });
 
   const handleConnect = async () => {
-    if (!apiKey || apiKey === "your_openai_api_key_here") {
+    if (!apiKey) {
       alert("Missing OpenAI API Key.");
 
       return;
