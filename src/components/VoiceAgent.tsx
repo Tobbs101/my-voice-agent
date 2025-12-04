@@ -59,7 +59,7 @@ export function VoiceAgent() {
             <div className="flex gap-4">
               <button
                 onClick={isConnected ? disconnect : handleConnect}
-                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 transition-all rounded-full font-semibold text-lg flex items-center gap-3 transition-all shadow-lg hover:shadow-xl"
+                className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg flex items-center gap-3 transition-all shadow-lg hover:shadow-xl"
               >
                 {isConnected ? (
                   <>
